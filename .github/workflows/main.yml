@@ -1,4 +1,4 @@
-name: CI/CD Pipeline (Build,push to Docker Hub and Drploy to Kubernetes)
+name: CI/CD Pipeline (Build,push to Docker Hub and Drploy to Kubernetes )
 
 on:
   push:
@@ -84,4 +84,6 @@ jobs:
     - name: Create TLS secret in EKS
       run: |
         kubectl create secret tls wisecow-tls --cert=certs/tls.crt --key=certs/tls.key
+
+
 
