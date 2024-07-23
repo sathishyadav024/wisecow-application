@@ -10,7 +10,7 @@ spec:
       app: wisecow
   replicas: 2
   strategy:
-    type: launchingapp
+    type: RollingUpdate
   template:
     metadata:
       labels:
