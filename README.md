@@ -49,4 +49,6 @@ After the creation the file is pushed to the gitub
 
 The CI/CD of wisecow application is successfully completed using GITHUB ACTIONS
 
+![alt text](<Screenshot 2024-07-22 221817.png>)
+
                          Thank You
